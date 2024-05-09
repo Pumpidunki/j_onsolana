@@ -1,0 +1,98 @@
+body{
+  margin: 0px 0px 0px 0px;
+  background-color: black;
+}
+.section1{
+  margin: 0px 0px 0px 0px;
+  height: 1000px;
+  width: 1901px;
+  background-image: url("../img/fondo.png");
+}
+.socials{
+ justify-content: center;
+ display: flex;
+}
+#pump{
+  background-image: url("../img/pump.png");
+  height: 200px;
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 250px;
+}
+
+#tel{
+  background-image: url("../img/telegram.png");
+  height: 200px;
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 250px;
+}
+#x{
+  background-image: url("../img/x.png");
+  height: 200px;
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 250px;
+}
+.arrastrable{
+  margin-left: 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+#section2{
+  display: flex;
+}
+#section3{
+  display: flex;
+margin: 50px 0px 50px 20px;
+}
+#memes{
+  margin: 40px 0px 50px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+#video1{
+  margin: 50px 0px 50px 20px;
+  display: block;
+  height: 10px;
+}
+video {
+  max-width: 500px;
+}
+
+#meme1{
+  margin-top: 10px;
+  margin-left: 5px;
+  display: block;
+}
+
+#button{
+text-align: center;
+ height: 40px;
+ width: 500px;
+ background: linear-gradient(to bottom right, #3148db,#6739b6, #ec008c,  #fd1d1d, #f77737, #ffdc80);
+ border-radius: 25px;
+ border: 5px solid grey;
+ cursor: pointer;
+}
+
+#button-s{
+  margin-top: 7px;
+  text-align: center;
+   height: 40px;
+   width: 400px;
+   background: linear-gradient(to bottom right, #3148db,#6739b6, #ec008c,  #fd1d1d, #f77737, #ffdc80);
+   border-radius: 25px;
+   border: 5px solid grey;
+   cursor: pointer;
+  }
+a{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-size: 30px;
+  color: white;
+}
